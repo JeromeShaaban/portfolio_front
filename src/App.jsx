@@ -6,6 +6,7 @@ import Homepage from "./components/Homepage"
 import Projects from "./components/Projects"
 import ContactInfos from "./components/ContactInfos"
 import MenuContext from "./contexts/MenuContext"
+import Footer from "./components/Footer"
 
 function App() {
   const [open, setOpen] = useState(false)
@@ -21,6 +22,7 @@ function App() {
             <Route path="/contact" component={ContactInfos} />
           </Switch>
         )}
+        <Footer />
       </Router>
     </MenuContext.Provider>
   )

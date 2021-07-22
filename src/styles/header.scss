@@ -6,13 +6,13 @@
   text-align: center;
   font-family: "Goldman", "Orbitron", sans-serif;
   font-weight: 300;
-  font-size: 4rem;
   letter-spacing: 7px;
   margin-bottom: 20px;
 
   span {
+    font-size: 4rem;
     background: -webkit-linear-gradient(white, #38495a);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 }

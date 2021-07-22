@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import "../styles/header.scss"
 import Menu from "./Menu"
 
@@ -6,7 +7,9 @@ const Header = () => {
   return (
     <div id="HeaderTitle">
       <Menu />
-      <span> Welcome to Jérôme Shaaban's Portfolio</span>
+      <Link to="/">
+        <span> Welcome to Jérôme Shaaban's Portfolio</span>
+      </Link>
     </div>
   )
 }

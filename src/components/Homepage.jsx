@@ -3,7 +3,7 @@ import "../styles/homepage.scss"
 
 const Homepage = () => {
   return (
-    <div>
+    <div id="homeDeck">
       <div className="homeContainer">
         <p>
           Bonjour, je suis Jérôme Shaaban, développeur web junior fullstack
