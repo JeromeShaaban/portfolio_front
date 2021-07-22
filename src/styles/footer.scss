@@ -1,13 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Goldman&display=swap");
+
 .footerContainer {
   display: flex;
-  width: 100%;
+  width: auto;
+  height: 40px;
   justify-content: center;
-  text-align: center;
+  align-items: center;
   color: white;
   border-top: 1px solid white;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  opacity: 0.6;
 }
 
 .footerText {
-  color: white;
-  text-align: center;
+  font-size: 0.7rem;
+  font-family: "Goldman", "Orbitron", sans-serif;
 }
