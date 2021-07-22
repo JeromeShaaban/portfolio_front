@@ -16,13 +16,15 @@ function App() {
         <BackgroundStars />
         <Header />
         {!open && (
-          <Switch>
-            <Route exact path="/" component={Homepage} />
-            <Route path="/projects" component={Projects} />
-            <Route path="/contact" component={ContactInfos} />
-          </Switch>
+          <>
+            <Switch>
+              <Route exact path="/" component={Homepage} />
+              <Route path="/projects" component={Projects} />
+              <Route path="/contact" component={ContactInfos} />
+            </Switch>
+            <Footer />
+          </>
         )}
-        <Footer />
       </Router>
     </MenuContext.Provider>
   )
