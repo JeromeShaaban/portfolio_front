@@ -10,6 +10,9 @@ const Homepage = () => {
           orienté Front-end.
         </p>
         <p>Je suis spécialisé en React et en Javascript.</p>
+        <p id="warning">
+          /!\ /!\ /!\ Porfolio en cours d'ellaboration /!\ /!\ /!\
+        </p>
       </div>
       <div className="homeContainer" id="Skills">
         <div className="SkillsList">
