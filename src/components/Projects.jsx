@@ -33,9 +33,9 @@ const Projects = () => {
   return (
     <div className="deck">
       {projects.length &&
-        projects.map((project, index) => (
-          <ProjectCard key={index} {...project} />
-        ))}
+        projects
+          .sort((a, b) => b.id - a.id)
+          .map((project, index) => <ProjectCard key={index} {...project} />)}
     </div>
   )
 }
