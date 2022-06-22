@@ -19,7 +19,7 @@ const Projects = () => {
 
   const getProjects = () => {
     axios
-      .get("http://localhost:8000/api/projects")
+      .get("https://portoflio-jshaaban-back.herokuapp.com/")
       .then((project) => {
         setProjects(project.data)
       })
