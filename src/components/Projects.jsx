@@ -19,7 +19,7 @@ const Projects = () => {
 
   const getProjects = () => {
     axios
-      .get("http://localhost:8000/api/projects")
+      .get(`${process.env.REACT_APP_BACKEND_URL}/api/projects`)
       .then((project) => {
         setProjects(project.data)
       })
